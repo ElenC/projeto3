@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background-color: rgb(212, 214, 214); 
+    display: block;
+}
+
+#cabecalho-principal{
+    width: 10vw;
+    height: 100%;
+    float: right;
+    background-color: rgb(177, 193, 194);
+    
+}
+
+ul{
+    margin: 5px;
+    padding: 5px;
+    list-style-type: none;
+}
+ul a{
+    height: 100%;
+    display:block;
+    margin: 5px;
+    padding: 0 1.5em;
+    line-height: 2em;
+    text-decoration: none;
+    font-family:'Mukta', sans-serif;
+    font-weight: bold;
+    color: rgb(36, 35, 35);
+    cursor: pointer;
+    float: right;
+}
+ul a:hover{
+    color: rgb(58, 125, 126);
+}
+ul a:visited{
+    color:rgb(47, 69, 88);
+}
+
+#img-cabecalho{
+    margin: 5px;
+    margin-right: -22px;
+    margin-top: 480px;
+    padding: 5px;
+    width: 7vw;
+    height: 7vh;   
+}
+#central h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-seri;
+    font-weight: bolder;
+    font-size: 1.4em;
+    padding-top: 80px;
+    margin-left: 480px;
+    color: rgb(47, 69, 88);
+}
+
+#central img{
+    width: 40vw;
+    height: 69vh;
+    margin-top: 10px;
+    margin-left: 350px;
+    -webkit-border-radius: 10px;
+	-moz-border-radius:10px;
+    border-radius: 20px;  
+}
+form{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    width: 20vw;
+    height: 40vh;
+    margin-top: -420px;
+    margin-left: 500px;
+}
+
+#submit{ 
+    margin-left: 563px;
+    margin-top: 85px;
+    border: 2px rgb(21, 110, 170); 
+}
+#submit input{
+    width: 7vw;
+    height: 4vh;
+    padding: 5px 5px;
+    cursor: pointer;
+    background-color: #083541;
+    border: 2px rgb(21, 110, 170); 
+    background: linear-gradient(to bottom, #a9d7ec, #03232c);
+	background: -moz-linear-gradient(to bottom, #a9d7ec, #03232c);
+	background: -webkit-linear-gradient(to bottom, #a9d7ec, #03232c);
+    background: -o-linear-gradient(to bottom, #a9d7ec, #03232c);  
+}
+
+#submit input:focus{
+    height: 6.6vh;
+}
+#submit input:hover{
+    background-color:#081524;
+    background: linear-gradient(to bottom, #2e5b72, #081524);
+	background: -moz-linear-gradient(to bottom, #2e5b72, #081524);
+	background: -webkit-linear-gradient(to bottom, #2e5b72,#081524);
+    background: -o-linear-gradient(to bottom, #2e5b72, #081524); 
+    transform: scale(1.3); 
+    
+}
+#submit input:active{
+    color: #fff;
+    transform: translateY(2px);
+    transition: all;
+    transition-timing-function: ease-in;
+    transition-duration: 0.6s;
+    transition-delay: 0.2s;
+
+}
+
+/* Consulta html */
+
+#filtro{
+    width: 30vw;
+    margin-left:100px;
+    padding: 50px 0 0 0;
+}
+#filtro, .filtro{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.08em;
+    border-radius: 10px;
+    border: #fff;
+}
+#tabela-principal, table{
+    width: 70vw;
+    border-collapse: separate;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.97em;
+    margin-top: 70px;
+    margin-left: 150px;  
+}
+th, td{
+    padding: 7px;
+    
+}
+th{
+    margin-top: -40px;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0.04em;
+}
+tr{
+    font-size: 0.94em;
+}
+
+tr.alternado{
+    background-color: #cccaca;
+}
+tr:hover{
+	background-color: #548686;
+}
+.num_td{
+    text-align: center;
+}

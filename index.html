@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://image.flaticon.com/icons/svg/994/994279.svg">
+        <title>VS STORE</title>
+    </head>
+    <body id="container">
+        <header id="cabecalho-principal">
+            <div>
+                <ul>
+                    <li>
+                        <a href="">Cadastro</a>
+                    </li>
+                    <li>
+                        <a href="consulta.html">Consulta</a>
+                    </li>
+                    <li>
+                        <a> <img id="img-cabecalho" src="https://image.flaticon.com/icons/svg/1356/1356596.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        
+        <div id="central">
+            <h1>Cadastro de Novos Produtos</h1>
+            <img src="imagens/fundo.png" >
+            <form class="central-form">
+                <label for="serie">
+                    Nº de Série do Produto <br>
+                    <input type="text" id="serie" pattern="[0-9]">
+                </label>
+                 <br>
+               <label for="prod">
+                   Nome do Produto <br>
+                   <input type="text" id="prod">
+               </label>
+               <br>
+               <label for="quanti">
+                Quantidade <br>
+                <input type="number" id="quanti">
+            </label>
+            <br>
+             <label>Tipo</label> <br>
+               <select name="" id="tipoProd">
+                   <optgroup label="Tipo de Produto">
+                    <option value="make">Maquiagem</option>
+                    <option value="hair">Cabelo</option>
+                    <option value="face_body">Rosto e Corpo</option>
+                   </optgroup>
+               </select>
+                <br><br>
+               <label for="caracter">
+                   Característa do Protudo <br>
+                   <textarea name="caracter" id="caracter" cols="30" rows="10"></textarea>
+               </label>
+            </form>
+            <br>
+            <button id="submit">
+               <input type="submit" value="Salvar" onclick="saveCad()">
+            </button>
+        </div>
+
+        <script src="script.js">
+            
+        </script>
+    </body>
+</html>

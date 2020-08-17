@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://image.flaticon.com/icons/svg/994/994279.svg">
+        <title>CONSULTA DE PRODUTO</title>
+    </head>
+    <body id="container" onload="inserirTab()">
+        <header id="cabecalho-principal">
+            <div>
+                <ul>
+                    <li>
+                        <a href="index.html">Cadastro</a>
+                    </li>
+                    <li>
+                        <a href="">Consulta</a>
+                    </li>
+                    <li>
+                        <a> <img id="img-cabecalho" src="https://image.flaticon.com/icons/svg/1356/1356596.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div id="filtro">
+            <label for="text_consul" class="filtro">
+                Filtrar:
+                <input type="text" id="text_consul" class="filtro">
+            </label>
+        </div>
+        <div >
+            <table id="tabela-principal">
+                <tr>
+                    <th>Nº Série do Produto</th>
+                    <th>Nome do Produto</th>
+                    <th>Quantidade</th>
+                    <th>Tipo</th>
+                    <th>Características do Produto</th>
+                </tr> 
+                <tr>
+                    <td></td>
+                    <td>Base Fácial</td>
+                    <td class="num_td">3</td>
+                    <td>Maquiagem</td>
+                    <td>Base VS Vegan Matte para peles claras</td>
+                </tr>
+                <tr class="alternado">
+                    <td></td>
+                    <td>Base Fácial</td>
+                    <td class="num_td">3</td>
+                    <td>Maquiagem</td>
+                    <td>Base VS Vegan Matte para peles negras</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Rímel</td>
+                    <td class="num_td">5</td>
+                    <td>Maquiagem</td>
+                    <td>Rímel Super Glow duração de 12 horas e aprova d'água</td>
+                </tr>
+                <tr class="alternado">
+                    <td></td>
+                    <td>Hidratante Fácial</td>
+                    <td class="num_td">4</td>
+                    <td>Rosto e Corpo</td>
+                    <td>Hidratante Fixed com longa duranção </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Protetor Solar FPS70</td>
+                    <td class="num_td">5</td>
+                    <td>Rosto e Corpo</td>
+                    <td>Protetor seco sem óleos, protege por até 8 horas</td>
+                </tr>
+                <tr class="alternado">
+                    <td></td>
+                    <td>Máscara Nutrição</td>
+                    <td class="num_td">7</td>
+                    <td>Cabelos</td>
+                    <td>Para cabelos danificados, nutri e hidrata</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Shampoo óleos</td>
+                    <td class="num_td">4</td>
+                    <td>Cabelos</td>
+                    <td>Limpa e hidrata dando mais leveza e brilho</td>
+                </tr>
+                <tr class="alternado">
+                    <td></td>
+                    <td>Condicionador Óleos</td>
+                    <td class="num_td">4</td>
+                    <td>Cabelos</td>
+                    <td>Condiciona e hidrata dando mais leveza e brilho</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Batom V </td>
+                    <td class="num_td">3</td>
+                    <td>Maquiagem</td>
+                    <td>Batom mate duração 24 horas na cor vermela</td>
+                </tr>
+                <tr class="alternado">
+                    <td></td>
+                    <td>Batom V</td>
+                    <td class="num_td">4</td>
+                    <td>Maquiagem</td>
+                    <td>Batom mate duração 24 horas na cor rosa </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Body Splash </td>
+                    <td class="num_td">3</td>
+                    <td>Rosto e Corpo</td>
+                    <td>Fragrância suave que prolonga sensação frescor pós banho</td>
+                </tr>
+                <tr class="alternado">
+                    <td></td>
+                    <td>Delineador Glow</td>
+                    <td class="num_td">3</td>
+                    <td>Maquiagem</td>
+                    <td>Com duração de 12horas e aprova d'água</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Blush</td>
+                    <td class="num_td">6</td>
+                    <td>Maquiagem</td>
+                    <td>Pó colorido sutil que deixa a pele natural e iluminada</td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="consult.js"></script>
+        
+    </body>
+</html>
